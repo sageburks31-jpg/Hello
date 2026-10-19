@@ -11,14 +11,11 @@ public class hello {
     }
     public static void sayHello(){
         System.out.print("Hello, World!");
-
     }
     public static void sayGoodbye(){
         System.out.print("Goodbye!");
-
     }
     public static void sayGoodMorning(){
         System.out.println("Good morning!");
-
     }
 }
