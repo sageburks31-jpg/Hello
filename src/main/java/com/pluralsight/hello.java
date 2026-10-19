@@ -1,24 +1,24 @@
 package com.pluralsight;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class hello {
     public static void main(String[] args) {
 
+        menu.displayMenu();
         sayHello();
         sayGoodbye();
         sayGoodMorning();
+        menu.displayMenu();
     }
     public static void sayHello(){
-        System.out.printf("Hello, World!");
+        System.out.print("Hello, World!");
 
     }
     public static void sayGoodbye(){
-        System.out.printf("Goodbye!");
+        System.out.print("Goodbye!");
 
     }
     public static void sayGoodMorning(){
-        System.out.printf("Good morning!");
+        System.out.println("Good morning!");
 
     }
     }
